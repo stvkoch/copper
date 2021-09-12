@@ -13,15 +13,14 @@ After hunting desperately for Tod, Copper is faced against a bear to protect his
 
 We try organize the resources using "Package by feature" approach, delegating to the feature the responsability of what they should and how to do. They are the king of your own domain.
 
-But, to avoidcopper that "dependency graph of packages must have no cycles" we have special kind of citizen where they have free pass by the domains.
+But, to avoid that "dependency graph of packages must have no cycles" we have special kind of citizen where they have free pass by the domains.
 
 - models
 - repositories
-- wears
 
-All ways dress your requests and responses right wear, it's a matter of etiquette.
+All ways dress your requests and responses right wear, it's a matter of etiquette defining the struct to requests and reponses.
 
-copperyer separete the logic to handle a specific route or a group of routes, also is charge to config the routes that will be handle using the Routes function.
+Application layer separete the logic for handle a specific route or a group of routes, also is charge to config the routes that will be handle using the Routes function.
 
 #### Registe handler
 
