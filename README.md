@@ -50,7 +50,7 @@ gin --appPort 4000 --all -i run server.go
 > “5 days of coding can save 15 minutes of planning”
 
 
-### Usin Docker-composer
+### Using Docker-composer
 
 ```
 cd copper
