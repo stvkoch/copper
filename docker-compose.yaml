@@ -1,0 +1,27 @@
+version: '3'
+services:
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: ./api_v1
+    volumes:
+    - .:/opt/app/api
+    environment:
+      API_SERVER_ADDR: ":3000"
+      DATABASE_URL: postgres://local-dev@db/api?sslmode=disable
+    ports:
+    - "3000:3000"
+    - "4000:4000"
+    # links:
+    # - db
+  # db:
+  #   image: postgres:13-alpine
+  #   volumes:
+  #     - data:/var/lib/postgresql/data
+  #   environment:
+  #     POSTGRES_DB: api
+  #     POSTGRES_USER: local-dev
+  #     POSTGRES_HOST_AUTH_METHOD: trust
+
+# volumes:
+  # data: local
