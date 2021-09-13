@@ -65,3 +65,10 @@ curl -X GET \
   -H 'Accept: */*' \
   -H 'Content-Type: application/json'
 ```
+
+### Tasks
+
+TODO: https://github.com/stvkoch/copper/issues?q=is%3Aissue+is%3Aopen+label%3ATODO
+InProgress: https://github.com/stvkoch/copper/issues?q=is%3Aissue+is%3Aopen+label%3AInProgress
+ReadyToMerge: https://github.com/stvkoch/copper/issues?q=is%3Aissue+is%3Aopen+label%3AReadyToMerge
+DONE: https://github.com/stvkoch/copper/issues?q=is%3Aissue+is%3Aopen+label%3ADONE
